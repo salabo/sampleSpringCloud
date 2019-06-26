@@ -28,9 +28,9 @@
 ### 6 zuulservice 网关
 之所以要先启动配置中心是因为配置都通过config server发起来读取git仓库配置
 
-配置我放在[配置中心git地址](https://github.com/Watsonzhang/config-sample)
+配置我放在[配置中心git地址](https://github.com/salabo/mircroServerConfig)
 
-
+（配置文件可以是yml 可以是propertis文件  因人而异）
 然后浏览器打开注册中心 即可看见你的服务列表
 [注册中心](http://localhost:8260) 
 [服务提供接口](http://192.168.3.144:2000/user/1)
