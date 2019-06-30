@@ -3,7 +3,7 @@ eureka:
     instance-id: zull-proxy
   client:
     serviceUrl:
-      defaultZone: http://localhost:8260/eureka
+      defaultZone: http://localhost:8080/eureka
 server:
   port: 8888
 spring:

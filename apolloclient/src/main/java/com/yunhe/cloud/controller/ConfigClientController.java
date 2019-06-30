@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigClientController {
 
-    @Value("${config_info}")
+//    @Value("${config_info}")
     private String config;
 
 
