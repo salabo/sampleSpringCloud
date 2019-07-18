@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ApolloClientMain {
 
-    @Value("${name:hello}")
+    @Value("${name}")
     private String str;
 
 
